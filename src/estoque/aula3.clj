@@ -34,4 +34,4 @@
 (println (filter aplica-desconto? precos)) ; pass in every value applying aplica-desconto? and return to new array only values which returned true from aplica-desconto?
 
 
-(println (reduce + proces)) ; pass in every item applying two params in the function (+) and use the result from that function in the next call with the next value in the vector :(+ arg1 arg2)
+(println (reduce + precos)) ; pass in every item applying two params in the function (+) and use the result from that function in the next call with the next value in the vector :(+ arg1 arg2)

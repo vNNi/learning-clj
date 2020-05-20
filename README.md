@@ -16,4 +16,6 @@ FIXME: listing of options this app accepts.
 
 ## Examples
 
-- Run the `lein rpl`, and run the `class(1,2,3,4)` files 
+- Run the `lein rpl` 
+- Use the namespace from the file `(use 'estoque.aula3)`
+- Run the functions `(valor-descontado 200)`
